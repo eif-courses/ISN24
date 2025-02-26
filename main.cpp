@@ -1,25 +1,35 @@
 #include <iostream>
+#include <windows.h>
+#include "Task1.h"
 
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the
-    // <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
 
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code.
-        // We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/>
-        // breakpoint for you, but you can always add more by pressing
-        // <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
-    }
+using namespace std;
 
-    return 0;
+
+void printMenuText() {
+    cout << "=================================MENU=======================================================" << endl;
+    cout << "1. Algoritmai. Jų paskirtis ir funkcijos" << endl;
+    cout << "2. Kintamieji. Pagrindinės programinės konstrukcijos. Priskyrimo sakinys. Sudėtinis sakinys" << endl;
+    cout << "0. Uždaryti programą" << endl;
+    cout << "============================PASIRINKITE OPCIJĄ========================================" << endl;
 }
 
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
+
+int main() {
+    SetConsoleOutputCP(65001);
+
+    int input = -1;
+
+    printMenuText();
+
+    while (input != 0) {
+        cin >> input;
+        if (input == 1) {
+            kiekDalinasiIsSeptyniuUI();
+            didziausiasMaziausiasSkaiciusIsTrijuIvestuUI();
+        } else if (input == 2) {
+            cout << "Kolkas neigyvendinta funkcija" << endl;
+        }
+    }
+    return 0;
+}
