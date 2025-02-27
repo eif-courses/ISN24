@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include "Task1.h"
-
+#include "Utilities.h"
 
 using namespace std;
 
@@ -14,6 +14,11 @@ void printMenuText() {
     cout << "============================PASIRINKITE OPCIJĄ========================================" << endl;
 }
 
+
+namespace dinaminis {
+
+
+}
 
 int main() {
     SetConsoleOutputCP(65001);
@@ -28,8 +33,18 @@ int main() {
             kiekDalinasiIsSeptyniuUI();
             didziausiasMaziausiasSkaiciusIsTrijuIvestuUI();
         } else if (input == 2) {
-            cout << "Kolkas neigyvendinta funkcija" << endl;
+            printLn("Tavo $2 skaicius: yra toks $1 waeawe", 777, 999);
         }
     }
+
+
+    //printf("Lwaeawe %d aweawe %d", 2, 2);
+
+    // Sukurti print funkcija kuriai perduotemem teksta kaip zinutes fragementus (zodzius)
+    // ir kitanma parametru skaiciu
+    // ir nurodyti zinuteje kurioje vietoje turime ideti ta parametra
+
+
+
     return 0;
 }
