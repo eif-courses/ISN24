@@ -5,4 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(ISN24 main.cpp
         Task1.h
-        Utilities.h)
+        Utilities.h
+        Task1.cpp
+        Task2.h
+        Task2.cpp)
