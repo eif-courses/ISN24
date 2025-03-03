@@ -6,6 +6,7 @@
 #define TASK1_H
 #include <iostream>
 #include <vector>
+#include "Utilities.h"
 using namespace std;
 
 struct TwoIntegers {

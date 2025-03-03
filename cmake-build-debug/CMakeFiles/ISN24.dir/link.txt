@@ -1,0 +1,3 @@
+C:\Users\Markeris\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\ISN24.dir/objects.a
+C:\Users\Markeris\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\ISN24.dir/objects.a @CMakeFiles\ISN24.dir\objects1.rsp
+C:\Users\Markeris\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ISN24.dir/objects.a -Wl,--no-whole-archive -o ISN24.exe -Wl,--out-implib,libISN24.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ISN24.dir\linkLibs.rsp
