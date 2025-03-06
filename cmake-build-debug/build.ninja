@@ -67,6 +67,18 @@ build CMakeFiles/ISN24.dir/Task2.cpp.obj: CXX_COMPILER__ISN24_unscanned_Debug C$
   OBJECT_DIR = CMakeFiles\ISN24.dir
   OBJECT_FILE_DIR = CMakeFiles\ISN24.dir
 
+build CMakeFiles/ISN24.dir/Task6.cpp.obj: CXX_COMPILER__ISN24_unscanned_Debug C$:/Users/mgzeg/CLionProjects/ISN24/Task6.cpp || cmake_object_order_depends_target_ISN24
+  DEP_FILE = CMakeFiles\ISN24.dir\Task6.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ISN24.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISN24.dir
+
+build CMakeFiles/ISN24.dir/Task3.cpp.obj: CXX_COMPILER__ISN24_unscanned_Debug C$:/Users/mgzeg/CLionProjects/ISN24/Task3.cpp || cmake_object_order_depends_target_ISN24
+  DEP_FILE = CMakeFiles\ISN24.dir\Task3.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ISN24.dir
+  OBJECT_FILE_DIR = CMakeFiles\ISN24.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ISN24
@@ -75,7 +87,7 @@ build CMakeFiles/ISN24.dir/Task2.cpp.obj: CXX_COMPILER__ISN24_unscanned_Debug C$
 #############################################
 # Link the executable ISN24.exe
 
-build ISN24.exe: CXX_EXECUTABLE_LINKER__ISN24_Debug CMakeFiles/ISN24.dir/main.cpp.obj CMakeFiles/ISN24.dir/Task1.cpp.obj CMakeFiles/ISN24.dir/Task2.cpp.obj
+build ISN24.exe: CXX_EXECUTABLE_LINKER__ISN24_Debug CMakeFiles/ISN24.dir/main.cpp.obj CMakeFiles/ISN24.dir/Task1.cpp.obj CMakeFiles/ISN24.dir/Task2.cpp.obj CMakeFiles/ISN24.dir/Task6.cpp.obj CMakeFiles/ISN24.dir/Task3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ISN24.dir

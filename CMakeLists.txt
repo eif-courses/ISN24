@@ -8,4 +8,8 @@ add_executable(ISN24 main.cpp
         Utilities.h
         Task1.cpp
         Task2.h
-        Task2.cpp)
+        Task2.cpp
+        Task6.h
+        Task6.cpp
+        Task3.h
+        Task3.cpp)
